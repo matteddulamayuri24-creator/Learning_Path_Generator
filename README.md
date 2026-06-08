@@ -34,6 +34,7 @@ Pipedream URLs for integrations (YouTube and either Drive or Notion)
 Before running the application, you'll need to set up:
 
   1.Google API Key
+  
 2.Pipedream URLs for:
      YouTube (required)
      Google Drive or Notion (based on your preference)
@@ -53,6 +54,9 @@ The application will be available at http://localhost:8501 by default.
 4.Click "Generate Learning Path" to create your personalized learning plan
 ### Project Structure
 app.py - Main Streamlit application
+
 utils.py - Utility functions and helper methods
+
 prompt.py - Prompt template
+
 requirements.txt - Project dependencies
