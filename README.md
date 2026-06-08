@@ -2,7 +2,7 @@
 # Learning Path Generator with Model Context Protocol (MCP)
 This project is a Streamlit-based web application that generates personalized learning paths using the Model Context Protocol (MCP). It integrates with various services including YouTube, Google Drive, and Notion to create comprehensive learning experiences.
 
-### Features
+## Features
 🎯 Generate personalized learning paths based on your goals
 
 🎥 Integration with YouTube for video content
@@ -15,14 +15,14 @@ This project is a Streamlit-based web application that generates personalized le
 
 🎨 User-friendly Streamlit interface
 
-### Prerequisites
+## Prerequisites
 Python 3.10+
 
 Google ai Studio API Key
 
 Pipedream URLs for integrations (YouTube and either Drive or Notion)
 
-### Installation
+## Installation
 1.Clone the repository:
 
 2.Create and activate a virtual environment:
@@ -30,20 +30,20 @@ Pipedream URLs for integrations (YouTube and either Drive or Notion)
 3.Install the required packages:
 
     pip install -r requirements.txt
-### Configuration
+## Configuration
 Before running the application, you'll need to set up:
 
   1.Google API Key
 2.Pipedream URLs for:
      YouTube (required)
      Google Drive or Notion (based on your preference)
-### Running the Application
+## Running the Application
 To start the application, run:
 
     streamlit run app.py
 The application will be available at http://localhost:8501 by default.
 
-### Usage
+## Usage
 1.Enter your Google ai studio API key and Pipedream URLs in the sidebar
 
 2.Select your preferred secondary tool (Drive or Notion)
